@@ -1,2 +1,2 @@
 # ComputerSciencec
-This is fucking crazy
+Written according to edhesive AP Computer Science A course
