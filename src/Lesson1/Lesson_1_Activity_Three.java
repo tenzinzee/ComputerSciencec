@@ -16,7 +16,9 @@ import java.lang.Math;
 class Lesson_1_Activity_Three {
     public static void main(String[] args) {
       
-        System.out.print("      Tony Fei\n      Tony Fei\n      Tony Fei\n");
+        System.out.println("********");
+        System.out.println("* java *");
+        System.out.println("********");
 
 
     }

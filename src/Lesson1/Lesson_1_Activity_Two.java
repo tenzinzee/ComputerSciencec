@@ -11,12 +11,11 @@ import java.lang.Math;
 
 class Lesson_1_Activity_Two {
     public static void main(String[] args) {
-      
-        /* Write your code here 
-         * Copy and paste your entire code to Code Runner to complete the activity, 
-         * from the first import statement to the last bracket. 
-        */
 
+        String name = "YOUR_NAME_HERE";
+        System.out.println("        " + name);
+        System.out.println("        " + name);
+        System.out.println("        " + name);
 
     }
 }
