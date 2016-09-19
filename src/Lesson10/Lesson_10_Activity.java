@@ -26,9 +26,12 @@ import java.lang.Math;
 class Lesson_10_Activity {
     public static void main(String[] args) {
 
-
-        double x = 1.473;
-        System.out.println("s");
+        Scanner s = new Scanner(System.in);
+        System.out.println("Please enter two decimal values:");
+        double a = s.nextDouble();
+        double b = s.nextDouble();
+        int temp = (int)Math.round((a * 1000 - b * 1000));
+        System.out.println((double)temp / 1000);
 
     }
 }
