@@ -33,5 +33,7 @@ class Lesson_10_Activity {
         int temp = (int)Math.round((a * 1000 - b * 1000));
         System.out.println((double)temp / 1000);
 
+        System.out.println("The answer is: " + temp);
+
     }
 }
