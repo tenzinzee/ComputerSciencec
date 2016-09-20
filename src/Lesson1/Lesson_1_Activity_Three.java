@@ -20,6 +20,5 @@ class Lesson_1_Activity_Three {
         System.out.println("* java *");
         System.out.println("********");
 
-
     }
 }
