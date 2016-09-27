@@ -30,6 +30,7 @@ class Lesson_12_Activity_Four {
          double a = scan.nextDouble();
          if (!(a>=99 && a<=102)) {
              System.out.println("WARNING");
+
          }
      }
 }
