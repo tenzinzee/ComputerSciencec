@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-/*记得把'我日'替换成Main*/
-public class 我日 {
+/*记得把'WoW'替换成Main*/
+public class WoW {
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
