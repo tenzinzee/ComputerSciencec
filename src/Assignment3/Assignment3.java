@@ -9,7 +9,7 @@ public class Assignment3 {
         Scanner scan = new Scanner(System.in);
         int month;
         int day;
-        String[] days = {"idiot","first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth", "eleventh", "twelfth", "thirteen", "fourteen", "fifteen", "sixteen", "seventeenth", "eighteenth", "nineteenth", "twentieth", "twenty-first", "twenty-second", "twenty-third", "twenty-fourth", "twenty-fifth", "twenty-sixth", "twenty-seventh", "twenty-eighth", "twenty-ninth", "thirtieth", "thirty-first",};
+        String[] days = {"idiot","first", "second", "thirad", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth", "eleventh", "twelfth", "thirteen", "fourteen", "fifteen", "sixteen", "seventeenth", "eighteenth", "nineteenth", "twentieth", "twenty-first", "twenty-second", "twenty-third", "twenty-fourth", "twenty-fifth", "twenty-sixth", "twenty-seventh", "twenty-eighth", "twenty-ninth", "thirtieth", "thirty-first",};
         String[] months = {"idiot","January","February","March","April","May","June","July","August","September","October","November","December"};
 
         System.out.println("On what day of the month were you born? (number)");
