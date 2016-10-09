@@ -3,8 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Hello World</title>
+    <script src="exported.js"></script>
+    <script src="vue.js"></script>
+    <script src="clipboard.min.js"></script>
 </head>
 <body>
-
+<h1>BOOOM</h1>
+<div id="app">
+    <input v-model="message">
+    <div v-for="answer in answers">
+        <div v-if="answer.name.toLowerCase().match(message.toLowerCase())" style="display: inline-flex">
+            <h4>{{ answer.name }}</h4>
+            <button class="BOOM-btn" v-bind:data-clipboard-text="answer.content">Copy</button>
+        </div>
+    </div>
+</div>
+<script src="app.js"></script>
 </body>
 </html>
