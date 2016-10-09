@@ -13,8 +13,7 @@
     <input v-model="message">
     <div v-for="answer in answers">
         <div v-if="answer.name.toLowerCase().match(message.toLowerCase())" style="display: inline-flex">
-            <h4>{{ answer.name }}</h4>
-            <button class="BOOM-btn" v-bind:data-clipboard-text="answer.content">Copy</button>
+            <button class="BOOM-btn" v-bind:data-clipboard-text="answer.content">{{ answer.name }}</button>
         </div>
     </div>
 </div>
