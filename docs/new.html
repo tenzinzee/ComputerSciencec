@@ -8,21 +8,35 @@
     <script src="clipboard.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css"
           integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <link rel="stylesheet" href="boom.css">
+    <link rel="stylesheet" href="Style/dracula.css">
+    <script src="highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 
 </head>
-<body>
-<h1>BOOOM</h1>
-<div id="app">
-    <input v-model="message">
-    <div v-for="answer in answers">
-        <div v-if="answer.name.toLowerCase().match(message.toLowerCase())" style="display: inline-flex">
-            <button class="BOOM-btn" v-bind:data-clipboard-text="answer.content" style="font-size: 24px;">{{ answer.name
-                }}
-            </button>
+<body id="js-constrain">
+<div class="app-warpper" id="app">
+    <div class="jumbotron">
+        <h1>BOOMSHAKALAKA</h1>
+        <input v-model="message" placeholder="Search....." type="text">
+    </div>
+    <div class="container">
+        <div class="card-columns">
+            <div v-for="answer in answers">
+                <div class="card card-block" v-show="answer.name.toLowerCase().match(message.toLowerCase())">
+                    <h4 class="card-title">{{ answer.name }}</h4>
+                    <pre>
+                        <code class="java">{{ answer.content }}</code>
+                    </pre>
+                    <button type="button" class="btn btn-outline-primary BOOM-btn" v-bind:data-clipboard-text="answer.content">Copy</button>
+                </div>
+            </div>
         </div>
     </div>
 </div>
+
 <script src="app.js"></script>
+<script src="http://cdn.jsdelivr.net/mojs/latest/mo.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"
         integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7"
         crossorigin="anonymous"></script>
@@ -32,5 +46,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"
         integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK"
         crossorigin="anonymous"></script>
+<script src="app_mo.js"></script>
 </body>
 </html>
