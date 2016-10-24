@@ -18,17 +18,26 @@
 <div class="app-warpper" id="app">
     <div class="jumbotron">
         <h1>BOOMSHAKALAKA</h1>
-        <input v-model="message" placeholder="Search....." type="text">
+        <div class="input-warpper">
+            <p>Lesson</p>
+            <input v-model="lesson" placeholder="..." type="text">
+            <p>Activity</p>
+            <input v-model="activity" placeholder="..." type="text">
+            <p>Assignment</p>
+            <input v-model="assignment" placeholder="..." type="text">
+        </div>
     </div>
     <div class="container">
         <div class="card-columns">
             <div v-for="answer in answers">
-                <div class="card card-block" v-show="answer.name.toLowerCase().match(message.toLowerCase())">
+                <div class="card card-block" v-show="matchName(answer.name.toLowerCase())">
                     <h4 class="card-title">{{ answer.name }}</h4>
                     <pre>
                         <code class="java">{{ answer.content }}</code>
                     </pre>
-                    <button type="button" class="btn btn-outline-primary BOOM-btn" v-bind:data-clipboard-text="answer.content">Copy</button>
+                    <button type="button" class="btn btn-outline-primary BOOM-btn"
+                            v-bind:data-clipboard-text="answer.content">Copy
+                    </button>
                 </div>
             </div>
         </div>

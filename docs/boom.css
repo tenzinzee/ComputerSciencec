@@ -9,6 +9,7 @@ input {
     color: white;
     border: none;
     text-align: center;
+    width: 2rem;
 }
 h1 {
     font-size: 4rem;
@@ -34,4 +35,12 @@ pre {
 
 [data-name] {
     pointer-events: none;
+}
+
+.input-warpper p{
+    margin: 0;
+}
+
+.input-warpper {
+    display: inline-flex;
 }

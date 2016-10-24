@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class BOOM {
+public class ASM_3 {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);

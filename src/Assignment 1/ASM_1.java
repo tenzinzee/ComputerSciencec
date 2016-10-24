@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-/*记得把'QWQ'替换成Main*/
-public class QWQ {
+/*记得把'ASM_1'替换成Main*/
+public class ASM_1 {
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);

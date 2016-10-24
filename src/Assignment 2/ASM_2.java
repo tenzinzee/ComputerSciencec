@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-/*记得把'WoW'替换成Main*/
-public class WoW {
+/*记得把'ASM_2'替换成Main*/
+public class ASM_2 {
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
