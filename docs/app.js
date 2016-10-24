@@ -23,4 +23,10 @@ var vueApp = new Vue({
             return name.match(regexConstructor)
         }
     }
-})
+});
+var titleStr = "▁▂▃▄▅▆▇█▇▆▅▄▃▂▁";
+var titleLen = titleStr.length
+setInterval(function () {
+    document.title = titleStr
+    titleStr = (titleStr + titleStr[0]).substr(1)
+},100);
