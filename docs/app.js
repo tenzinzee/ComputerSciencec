@@ -25,8 +25,28 @@ var vueApp = new Vue({
     }
 });
 var titleStr = "▁▂▃▄▅▆▇█▇▆▅▄▃▂▁";
-var titleLen = titleStr.length
+var titleLen = titleStr.length;
 setInterval(function () {
-    document.title = titleStr
+    document.title = titleStr;
     titleStr = (titleStr + titleStr[0]).substr(1)
 },100);
+
+var modalPrompt = function () {
+        if (typeof(Storage) !== "undefined") {
+            if (localStorage.getItem("agreed") == null) {
+                $('#tnc').modal('show')
+            }
+        }
+};
+$(document).ready(function () {
+    if (localStorage.getItem("agreed")) {
+    } else {
+        modalPrompt()
+    }
+    $("#tnc").on('hidden.bs.modal', function (e) {
+        modalPrompt()
+    });
+    $(".modal button.btn.btn-primary").on('click', function () {
+        localStorage.setItem('agreed', 'true');
+    })
+})
