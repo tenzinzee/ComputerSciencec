@@ -16,6 +16,10 @@ answerKey = [
         "name": "ASM_4.java"
     },
     {
+        "content": "import java.util.Scanner;\n\npublic class ASM_5 {\n    public static void main(String[] args) {\n        Scanner s = new Scanner(System.in);\n        System.out.println(\"Enter the first String:\");\n        String a = s.nextLine();\n        System.out.println(\"Enter the replacement String:\");\n        String b = s.nextLine();\n        if (!a.matches(\"^[a-zA-Z%\\\\s\\\\t]*$\")) {\n            System.out.println(\"Error: Incorrect characters\");\n        } else if (a.indexOf(\"%\") == -1) {\n            System.out.println(\"Error: no %\");\n        } else {\n            System.out.println(a.replaceFirst(\"%\", b));\n        }\n    }\n}\n",
+        "name": "ASM_5.java"
+    },
+    {
         "content": "/*\n * Lesson 1 Coding Activity Question 1\n * \n * Write a program to print your name to the center of the output screen. \n * Use tabs or spaces to center your output, depending on how wide your screen is. \n * For the code-runner, only one tab or space will be needed for your program to \n * be counted as acceptable.\n * \n*/\n\nimport java.util.Scanner;\nimport java.lang.Math;\n\nclass Lesson_1_Activity_One {\n    public static void main(String[] args) {\n      \n        System.out.println(\"        YOUR_NAME\");\n\n\n    }\n}\n",
         "name": "Lesson_1_Activity_One.java"
     },
