@@ -19,12 +19,12 @@
     <div class="jumbotron">
         <h1>BOOMSHAKALAKA</h1>
         <div class="input-warpper">
-            <p>Lesson</p>
-            <input v-model="lesson" placeholder="..." type="text">
-            <p>Activity</p>
-            <input v-model="activity" placeholder="..." type="text">
-            <p>Assignment</p>
-            <input v-model="assignment" placeholder="..." type="text">
+            <p onclick="$('input.lesson').focus()">Lesson</p>
+            <input v-model="lesson" placeholder="..." type="text" class="lesson">
+            <p onclick="$('input.activity').focus()">Activity</p>
+            <input v-model="activity" placeholder="..." type="text" class="activity">
+            <p onclick="$('input.assignment').focus()">Assignment</p>
+            <input v-model="assignment" placeholder="..." type="text" class="assignment">
         </div>
     </div>
     <div class="container">
