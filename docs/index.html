@@ -4,27 +4,37 @@
     <meta charset="UTF-8">
     <title>▁▂▃▄▅▆▇█▇▆▅▄▃▂▁</title>
     <script src="exported.js"></script>
-    <script src="vue.js"></script>
-    <script src="clipboard.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.5/vue.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.15/clipboard.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css"
           integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
     <link rel="stylesheet" href="boom.css">
-    <link rel="stylesheet" href="Style/dracula.css">
-    <script src="highlight.pack.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/dracula.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 
 </head>
 <body id="js-constrain">
+<nav class="navbar navbar-dark bg-inverse">
+    <ul class="nav navbar-nav">
+        <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+        </li>
+    </ul>
+</nav>
 <div class="app-warpper" id="app">
     <div class="jumbotron">
         <h1>BOOMSHAKALAKA</h1>
         <div class="input-warpper">
-            <p>Lesson</p>
-            <input v-model="lesson" placeholder="..." type="text">
-            <p>Activity</p>
-            <input v-model="activity" placeholder="..." type="text">
-            <p>Assignment</p>
-            <input v-model="assignment" placeholder="..." type="text">
+            <p onclick="$('input.lesson').focus()">Lesson</p>
+            <input v-model="lesson" placeholder="..." type="text" class="lesson">
+            <p onclick="$('input.activity').focus()">Activity</p>
+            <input v-model="activity" placeholder="..." type="text" class="activity">
+            <p onclick="$('input.assignment').focus()">Assignment</p>
+            <input v-model="assignment" placeholder="..." type="text" class="assignment">
         </div>
     </div>
     <div class="container">
@@ -74,7 +84,7 @@
 </div>
 
 
-<script src="mo.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mo-js/0.288.1/mo.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"
         integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7"
         crossorigin="anonymous"></script>

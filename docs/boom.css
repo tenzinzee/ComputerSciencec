@@ -44,3 +44,7 @@ pre {
 .input-warpper {
     display: inline-flex;
 }
+
+nav.navbar.navbar-dark.bg-inverse{
+    border-radius: 0;
+}
