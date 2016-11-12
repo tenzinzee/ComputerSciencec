@@ -18,5 +18,4 @@ for f in file:
         "content":fr,
         "name":f[1]
     })
-open('docs/exported.js', 'w', encoding='utf-8').write("answerKey = " + json.dumps(fd, indent=4, sort_keys=True))
-open('Firebase/exported.js', 'w', encoding='utf-8').write("answerKey = " + json.dumps(fd, indent=4, sort_keys=True))
+open('Firebase/public/exported.js', 'w', encoding='utf-8').write("answerKey = " + json.dumps(fd, indent=4, sort_keys=True))
