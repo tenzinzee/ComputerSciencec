@@ -4,12 +4,10 @@
 public class test {
     public static void main(String[] args)
     {
-        double count = 6.0;
-        for (int num = 0; num < 5; num++){
-            if (count != 0 && num / count > 0){
-                count -= num;
-            }
+        int [] a ={95,72,78,27,15,37,21,55,43,17};
+
+        for (int i = 1; i < a.length; i+=2){
+                System.out.print (a[i]+ " ");
         }
-        System.out.println(count);
     }
 }
