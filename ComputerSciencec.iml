@@ -15,5 +15,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Python 3.4.3 (/usr/local/Cellar/python3/3.4.3_2/bin/python3.4) interpreter library" level="application" />
+    <orderEntry type="library" name="firebase" level="application" />
+    <orderEntry type="library" name="material" level="application" />
   </component>
 </module>
