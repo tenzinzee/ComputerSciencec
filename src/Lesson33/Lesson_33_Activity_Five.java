@@ -27,24 +27,28 @@ import java.util.Scanner;
 class Lesson_33_Activity_Five {
 
     public static int[] insertValue(int[] a, int val, int index){
+        int[] temp1 = new int[index + 1];
+        int[] temp2 = new int[a.length - index - 1];
 
-        int[] temp1 = a;
-        int[] temp2 = a;
-        temp1 = Arrays.copyOfRange(a, 0, index + 1);
+        for(int i = 0; i <= index; i++){
+            temp1[i] = a[i];
+        }
+        for(int i = index + 1; i < a.length; i++){
+            temp2[i - index - 1] = a[i - 1];
+        }
+
         temp1[index] = val;
-        temp2 = Arrays.copyOfRange(a,index, a.length - 1);
-
 
         System.arraycopy(temp1, 0, a, 0, temp1.length);
         System.arraycopy(temp2, 0, a, temp1.length, temp2.length);
 
 
-        for (int i = 0; i < temp1.length; i++) {
-            System.out.print(temp1[i] + " ");
-        }
-        for (int i = 0; i < temp2.length; i++) {
-            System.out.print(temp2[i] + " ");
-        }
+//        for (int i = 0; i < temp1.length; i++) {
+//            System.out.print(temp1[i] + " ");
+//        }
+//        for (int i = 0; i < temp2.length; i++) {
+//            System.out.print(temp2[i] + " ");
+//        }
 //        for (int i = 0; i < a.length; i++) {
 //            System.out.print(a[i] + " ");
 //        }
@@ -56,7 +60,7 @@ class Lesson_33_Activity_Five {
     public static void main(String[] args)
      {
 
-         int[] a = {1,2,3,4,5,6};
+         int[] a = {1,2,3,4,5,6,7,8,9};
          insertValue(a, 100, 2);
 
 
