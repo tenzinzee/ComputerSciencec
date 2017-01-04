@@ -1,21 +1,7 @@
-/*
- * Lesson 2 Coding Activity Question 3
- * 
- * Write the code to output:
-
-   _
- /   \
-|     |
- \ _ /
-	
- * It may be easier to get the correct output 
- * if you copy/paste each line from the sample run above.
-*/
 
 import java.util.Scanner;
 import java.util.ArrayList;
-import java.lang.Math;
-
+//revise the class name main into Main
 class main {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
