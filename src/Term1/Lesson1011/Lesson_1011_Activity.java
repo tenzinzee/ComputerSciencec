@@ -1,4 +1,4 @@
-package Lesson1011;
+package Term1.Lesson1011;
 /*
  * Lesson 1011 Coding Activity 
  * 
@@ -27,7 +27,6 @@ package Lesson1011;
 
 import java.util.Scanner;
 import java.lang.Math;
-import java.math.*;
 
 class Lesson_1011_Activity{
     public static void main(String[] args)
