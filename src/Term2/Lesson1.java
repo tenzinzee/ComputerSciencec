@@ -1,8 +1,9 @@
+package Term2;
 
 import java.util.Scanner;
 import java.util.ArrayList;
-//revise the class name main into Main
-class main {
+//replace the class name Lesson1 into Main
+class Lesson1 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         String temp = " ";
@@ -28,12 +29,6 @@ class main {
         }
 
         System.out.println(array);
-
-
-
-
-
-
 
 
 
