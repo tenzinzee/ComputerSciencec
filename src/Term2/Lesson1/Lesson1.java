@@ -1,14 +1,13 @@
-package Term2;
+package Term2.Lesson1;
 
-import java.util.ArrayList;
 import java.util.Scanner;
-
-//revise the class name Lesson2 into Main
-class Lesson2 {
+import java.util.ArrayList;
+//replace the class name Lesson1 into Main
+class Lesson1 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         String temp = " ";
-        ArrayList <String> array = new <String> ArrayList();
+        ArrayList array = new ArrayList();
 
         System.out.println("Please enter words, enter STOP to stop the loop.");
         temp = s.nextLine();
@@ -22,10 +21,16 @@ class Lesson2 {
             temp = s.nextLine();
         }
 
-        for(String a: array) {
-            if(a.indexOf('a')!=-1)
-            System.out.println(a);
+        System.out.println(array.size());
+        System.out.println(array);
+        if (array.size() >2){
+            array.remove(array.size()-1);
+            array.remove(0);
         }
+
+        System.out.println(array);
+
+
 
     }
     public static void add(String a, ArrayList array){
