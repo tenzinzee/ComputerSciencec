@@ -21,7 +21,6 @@ public class Student {
     public Student(String firstName, String lastName, int gradeLevel, double gpa){
         num++;
         id = num;
-
         fname = firstName;
         lname = lastName;
         if (gradeLevel >= 0 && gradeLevel <= 12){
