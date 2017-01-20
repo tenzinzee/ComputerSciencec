@@ -71,6 +71,6 @@ Temporary Items
 .apdisk
 
 *.pdf
-Firebase/
+Firebase_/
 src/Main.java
 export.py
