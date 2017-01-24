@@ -1,8 +1,8 @@
-package Assignment5;
+package Term1.Assignment5;
 
 import java.util.Scanner;
 
-//将 Assignment5 更改为 Main 即可
+//将 Term1.Assignment5 更改为 Main 即可
 
 public class Assignment5 {
         public static void main(String[] args) {

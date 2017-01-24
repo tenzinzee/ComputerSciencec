@@ -1,12 +1,12 @@
-package Assignment7;
+package Term1.Assignment7;
 
 import java.util.Scanner;
-import java.lang.Math;
+
 public class Assignment7 {
 
 
     //本Assignment可以获得97%，只因edhesive太傻逼。
-    //将 Assignment7 更改为 Main 即可
+    //将 Term1.Assignment7 更改为 Main 即可
 
     public static int[] convertToBinary(int b) {
         int [] bin = new int[8];

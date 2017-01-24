@@ -1,4 +1,4 @@
-package Assignment3;
+package Term1.Assignment3;
 
 
 import java.util.Scanner;

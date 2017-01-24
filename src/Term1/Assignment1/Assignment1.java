@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-//将 Assignment1 更改为 Main 即可
+//将 Term1.Assignment1 更改为 Main 即可
 
 public class Assignment1 {
 

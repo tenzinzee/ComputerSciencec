@@ -1,11 +1,11 @@
-package Assignment6;
+package Term1.Assignment6;
 
 /**
  * Created by walterhuang on 11/14/16.
  */
 import java.util.*;
 
-//将 Assignment6 更改为 Main 即可
+//将 Term1.Assignment6 更改为 Main 即可
 
 public class Assignment6 {
 
