@@ -207,4 +207,5 @@ public class Strand {
             System.out.println("*** FAIL: burnOut(1) does not work as expected.");
         }
     }
+
 }
