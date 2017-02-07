@@ -1,5 +1,7 @@
-# ComputerSciencec
-Written according to edhesive AP Computer Science A course
-This sharing only provides ideas and information necessary for the AP ComputerScience A course.
-Only for study reason and review usage, not responsible for any plagerism.
+# Warning:
+This project focuses on off-syllabus coding for the homework tasks. Using any algorithm from the project is highly possible of causing a fail in your course. Copying codes from this project may also be considered as plagiarism, so definitely don't rely on any of these for homework.
+
+## However:
+This is not to keep any of you from implementing homework in crazy and creative ways! Please contribute to this repository and let all of us see what codes can be!
+
 # #sa-tony #X_EroSkulled
