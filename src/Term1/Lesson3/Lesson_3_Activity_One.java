@@ -16,8 +16,6 @@ class Lesson_3_Activity_One {
         Scanner scan = new Scanner(System.in);
         String name = scan.nextLine();
         System.out.println("Hi " + name + ", nice to see you.");
-        String [] w = {"zebra", "blaze"};
-        System.out.println(w[1].charAt(w[1].length() - 1));
 
 
 
