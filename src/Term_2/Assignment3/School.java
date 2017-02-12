@@ -18,7 +18,7 @@ public class School {
     public String getGradeLevel(int level) {
         String r = "";
         for (int i = 0; i < students.size(); i++) {
-            if (students.get(i).level == level) {
+            if (students.get(i).getLevel() == level) {
                 r += students.get(i).toString() + "\n";
             }
         }
